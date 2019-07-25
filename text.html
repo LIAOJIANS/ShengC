@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/mui.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/text.css">
+    <script src="js/mui.min.js"></script>
+    <script src="assets/zepto/zepto.min.js"></script>
+    <script src="assets/template/template-native.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/text.js"></script>
+    <script src="js/mui.init.pullrefresh.js"></script>
+</head>
+<body>
+<div class="mui-content">
+    <div id="segmentedControl" class="mui-segmented-control item_box mui-clearfix">
+        <a class="mui-control-item mui-active item_one" href="#item1">
+            全部
+        </a>
+        <a class="mui-control-item free_admission" href="#item2">
+
+        </a>
+        <a class="mui-control-item SHL" href="#item3">
+
+        </a>
+        <a class="mui-control-item character" href="#item4">
+
+        </a>
+        <a class="mui-control-item eq" href="#item5">
+
+        </a>
+        <a class="mui-control-item iq" href="#item6">
+
+        </a>
+    </div>
+    <div id="item1" class="mui-control-content mui-active mui-scroll-wrapper SL_item1 SL_all" >
+        <div>
+            <ul class="mui-table-view mui-scroll mui-table-view" id="text1">
+            </ul>
+        </div>
+    </div>
+    <div id="item2" class="mui-control-content mui-scroll-wrapper SL_item1 SL_mf">
+            <ul class="mui-table-view mui-scroll mui-table-view" id="text2">
+
+            </ul>
+        </div>
+    <div id="item3" class="mui-control-content mui-scroll-wrapper SL_item1 SL_shl">
+            <ul class="mui-table-view mui-scroll mui-table-view" id="text3">
+
+            </ul>
+        </div>
+    <div id="item4" class="mui-control-content mui-scroll-wrapper SL_item1 SL_xg">
+            <ul class="mui-table-view mui-scroll mui-table-view" id="text4">
+
+            </ul>
+        </div>
+    <div id="item5" class="mui-control-content mui-scroll-wrapper SL_item1 SL_qs">
+            <ul class="mui-table-view mui-scroll mui-table-view" id="text5">
+
+            </ul>
+        </div>
+    <div id="item6" class="mui-control-content mui-scroll-wrapper SL_item1 SL_IQ">
+            <ul class="mui-table-view mui-scroll mui-table-view" id="text6">
+
+            </ul>
+        </div>
+</div>
+<nav class="mui-bar mui-bar-tab footer">
+    <a href="index.html" class="mui-tab-item">
+        <span class="mui-icon iconfont icon-shouye"></span>
+        <span class="mui-tab-label">首页</span>
+    </a>
+    <a class="mui-tab-item" href="zixun.html">
+        <span class="mui-icon iconfont icon-zixun"></span>
+        <span class="mui-tab-label">咨询</span>
+    </a>
+    <a class="mui-tab-item mui-active" href="text.html">
+        <span class="mui-icon iconfont icon-zongheceping"></span>
+        <span class="mui-tab-label">测评</span>
+    </a>
+    <a class="mui-tab-item" href="course.html">
+        <span class="mui-icon iconfont icon-kecheng"></span>
+        <span class="mui-tab-label">课程</span>
+    </a>
+    <a class="mui-tab-item" href="personal.html">
+        <span class="mui-icon iconfont icon-gerenzhongxin"></span>
+        <span class="mui-tab-label">个人中心</span>
+    </a>
+</nav>
+<script id="historyR" type="text/template">
+    <%for(var i = 0; i < data.length;i++){%>
+        <li class="mui-table-view-cell mui-table-view-cell mui-media ">
+            <a href="#" class="xiangq">
+                <p class="id" style="display: none"><%=data[i].id%></p>
+                <img class="mui-media-object mui-pull-left" src="images/tz.png">
+                <div class="mui-media-body">
+                    <span><%=data[i].goodsname%></span>
+                    <p class='mui-ellipsis'>￥<%=data[i].price%></p>
+                    <div class="buttom clearfix">
+                        <span class="mui-media-body_cent_shu"><i class="mui-icon iconfont icon-eye"></i><%=data[i].num%></span>
+                        <span class="look">[查看详情]</span>
+                    </div>
+                </div>
+            </a>
+        </li>
+    <%}%>
+</script>
+<script id="historyR2" type="text/template">
+    <%for(var i = 0; i < data.length;i++){%>
+    <li class="mui-table-view-cell mui-table-view-cell mui-media">
+        <a href="#" class="xiangq">
+            <p class="id" style="display: none"><%=data[i].id%></p>
+            <img class="mui-media-object mui-pull-left" src="images/tz.png">
+            <div class="mui-media-body">
+                <span><%=data[i].goodsname%></span>
+                <p class='mui-ellipsis'>￥<%=data[i].price%></p>
+                <div class="buttom clearfix">
+                    <span class="mui-media-body_cent_shu"><i class="mui-icon iconfont icon-eye"></i><%=data[i].num%></span>
+                    <span class="look">[查看详情]</span>
+                </div>
+            </div>
+        </a>
+    </li>
+    <%}%>
+</script>
+<script id="historyR3" type="text/template">
+    <%for(var i = 0; i < data.length;i++){%>
+    <li class="mui-table-view-cell mui-table-view-cell mui-media">
+        <a href="#" class="xiangq">
+            <p class="id" style="display: none"><%=data[i].id%></p>
+            <img class="mui-media-object mui-pull-left" src="images/tz.png">
+            <div class="mui-media-body">
+                <span><%=data[i].goodsname%></span>
+                <p class='mui-ellipsis'>￥<%=data[i].price%></p>
+                <div class="buttom clearfix">
+                    <span class="mui-media-body_cent_shu"><i class="mui-icon iconfont icon-eye"></i><%=data[i].num%></span>
+                    <span class="look">[查看详情]</span>
+                </div>
+            </div>
+        </a>
+    </li>
+    <%}%>
+</script>
+<script id="historyR4" type="text/template">
+    <%for(var i = 0; i < data.length;i++){%>
+    <li class="mui-table-view-cell mui-table-view-cell mui-media">
+        <a href="#" class="xiangq">
+            <p class="id" style="display: none"><%=data[i].id%></p>
+            <img class="mui-media-object mui-pull-left" src="images/tz.png">
+            <div class="mui-media-body">
+                <span><%=data[i].goodsname%></span>
+                <p class='mui-ellipsis'>￥<%=data[i].price%></p>
+                <div class="buttom clearfix">
+                    <span class="mui-media-body_cent_shu"><i class="mui-icon iconfont icon-eye"></i><%=data[i].num%></span>
+                    <span class="look">[查看详情]</span>
+                </div>
+            </div>
+        </a>
+    </li>
+    <%}%>
+</script>
+<script id="historyR5" type="text/template">
+    <%for(var i = 0; i < data.length;i++){%>
+    <li class="mui-table-view-cell mui-table-view-cell mui-media">
+        <a href="#" class="xiangq">
+            <p class="id" style="display: none"><%=data[i].id%></p>
+            <img class="mui-media-object mui-pull-left" src="images/tz.png">
+            <div class="mui-media-body">
+                <span><%=data[i].goodsname%></span>
+                <p class='mui-ellipsis'>￥<%=data[i].price%></p>
+                <div class="buttom clearfix">
+                    <span class="mui-media-body_cent_shu"><i class="mui-icon iconfont icon-eye"></i><%=data[i].num%></span>
+                    <span class="look">[查看详情]</span>
+                </div>
+            </div>
+        </a>
+    </li>
+    <%}%>
+</script>
+<script id="historyR6" type="text/template">
+    <%for(var i = 0; i < data.length;i++){%>
+    <li class="mui-table-view-cell mui-table-view-cell mui-media">
+        <a href="#" class="xiangq">
+            <p class="id" style="display: none"><%=data[i].id%></p>
+            <img class="mui-media-object mui-pull-left" src="images/tz.png">
+            <div class="mui-media-body">
+                <span><%=data[i].goodsname%></span>
+                <p class='mui-ellipsis'>￥<%=data[i].price%></p>
+                <div class="buttom clearfix">
+                    <span class="mui-media-body_cent_shu"><i class="mui-icon iconfont icon-eye"></i><%=data[i].num%></span>
+                    <span class="look">[查看详情]</span>
+                </div>
+            </div>
+        </a>
+    </li>
+    <%}%>
+</script>
+</body>
+</html>

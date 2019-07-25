@@ -1,0 +1,152 @@
+/*头部样式*/
+.header {
+  /*搜索框*/
+  /*logo*/
+}
+.header .mui-icon-search {
+  padding: 5px;
+  font-size: 30px;
+  color: black;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.header .search {
+  height: 45px;
+  margin-top: 2px;
+  position: absolute;
+  left: 80px;
+  right: 35px;
+  top: 0;
+}
+.header .search .search_input {
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  border-radius: 50px;
+}
+.header .sl_logo {
+  width: 60px;
+  height: 44px;
+}
+/*内容区样式*/
+.content {
+  overflow: hidden;
+  position: absolute;
+  top: 44px;
+  bottom: 50px;
+  /*老师内容模块*/
+}
+.content .butoom {
+  height: 100%;
+  /*UL公共样式*/
+  /*老师标题模块*/
+  /*老师内容模块*/
+}
+.content .butoom ul {
+  margin-top: 10px;
+}
+.content .butoom ul .mui-active {
+  background-color: transparent!important;
+}
+.content .butoom ul > li:first-of-type {
+  border: 0;
+  padding-left: 30px;
+}
+.content .butoom ul > li:first-of-type p {
+  color: black;
+  font-size: 18px;
+}
+.content .butoom ul li .mui-media-object {
+  max-width: 120px;
+  height: 50px;
+}
+.content .butoom ul li .new p {
+  color: #000000;
+  font-size: 16px;
+}
+.content .butoom ul li .new .actor {
+  font-size: 10px;
+}
+.content .butoom ul li .new span {
+  font-size: 14px;
+  color: #666;
+}
+.content .butoom ul li .new .mon {
+  color: red;
+}
+.content .butoom ul .more a {
+  margin: 0;
+  padding: 8px 5px 5px 5px ;
+  border: 1px solid #666;
+  text-align: center;
+  color: blue;
+}
+.content .butoom .sl_top_teach {
+  background-color: #fff;
+}
+.content .butoom .sl_top_teach .teach {
+  margin-top: 10px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 15px;
+  border-bottom: 1px solid #ccc;
+}
+.content .butoom .sl_top_teach .teach > p {
+  margin-bottom: 0;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 18px;
+  color: black;
+}
+.content .butoom .sl_teacher {
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  padding-bottom: 15px;
+  margin-top: 0;
+}
+.content .butoom .sl_teacher .sl_true_teach {
+  padding-left: 10px;
+}
+.content .butoom .sl_teacher .sl_teacher_son {
+  border: 1px solid #000;
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  float: left;
+}
+.content .butoom .sl_teacher .sl_teacher_son .sl_teacher_img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin: 10px 50px;
+}
+.content .butoom .sl_teacher .sl_teacher_son p {
+  color: black;
+  margin: 10px 0;
+}
+.content .butoom .sl_teacher .sl_teacher_son > p:first-of-type {
+  font-size: 18px;
+  font-weight: 700;
+}
+.content .butoom .sl_teacher .sl_teacher_son span {
+  border: 1px solid #666;
+  border-radius: 20px;
+  padding: 8px 5px;
+  font-size: 12px;
+  background-color: #ccc;
+}
+.content .butoom .sl_teacher .sl_teacher_son > p:last-of-type {
+  margin-top: 30px;
+  color: #ccc;
+  font-size: 10px;
+}
+.content ul:last-of-type {
+  margin-top: 275px;
+}
+/*# sourceMappingURL=index.css.map */

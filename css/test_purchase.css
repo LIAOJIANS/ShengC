@@ -1,0 +1,84 @@
+html,
+.mui-content {
+  height: 100%;
+  background-color: #fff;
+}
+.test_purchase_top {
+  width: 100%;
+  height: 50px;
+  background-color: #218bca;
+  position: relative;
+}
+.test_purchase_top .return {
+  position: absolute;
+  left: 5px;
+  top: 0;
+  font-size: 30px;
+  margin-top: 0;
+  padding: 15px 5px 10px 0;
+  color: #fff;
+}
+.test_purchase_top .content_top_name {
+  width: 100%;
+  font-size: 24px;
+  color: #fff;
+  padding-top: 13px;
+  text-align: center;
+}
+.test_purchase_banner {
+  padding: 50px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.test_purchase_banner img {
+  width: 110px;
+  height: 130px;
+}
+.test_purchase_banner .test_purchase_banner_title {
+  padding: 10px 50px 0 30px;
+}
+.test_purchase_banner .test_purchase_banner_title .shl_lab {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+.test_purchase_banner .test_purchase_banner_title .shl_title {
+  font-size: 16px;
+  color: #666;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.test_purchase_banner .test_purchase_banner_title .shl_price {
+  font-size: 14px;
+  color: red;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.test_purchase_banner .test_purchase_banner_title .shl_click {
+  font-size: 12px;
+}
+.test_purchase_content {
+  padding: 0 10px;
+}
+.test_purchase_content h1 {
+  font-size: 18px;
+}
+.test_purchase_content .shk_content {
+  font-size: 14px;
+  color: #666;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.test_purchase_content .shl_result,
+.test_purchase_content .shl_time {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+.test_purchase_content input {
+  position: absolute;
+  margin-left: 50%;
+  left: -41px;
+}
+/*# sourceMappingURL=test_purchase.css.map */

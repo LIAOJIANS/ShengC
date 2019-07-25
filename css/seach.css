@@ -1,0 +1,63 @@
+body {
+  background-color: #fff;
+}
+.mui-content {
+  background-color: #fff;
+  /*头部样式*/
+  /*搜索历史样式*/
+}
+.mui-content .cont_top {
+  position: relative;
+  height: 50px;
+  color: #fff;
+  background-color: #218bca;
+}
+.mui-content .cont_top .return {
+  position: absolute;
+  left: 5px;
+  top: 0;
+  font-size: 30px;
+  margin-top: 0;
+  padding: 15px 5px 10px 0;
+}
+.mui-content .cont_top .form {
+  width: 100%;
+  height: 50px;
+  padding: 13px 50px;
+}
+.mui-content .cont_top .form .seach_input {
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  color: #0f0f0f;
+}
+.mui-content .cont_top .search_button {
+  position: absolute;
+  top: 13px;
+  right: 55px;
+  font-size: 24px;
+  color: #ccc;
+}
+.mui-content .cont_top .seach {
+  position: absolute;
+  top: 14px;
+  right: 8px;
+  font-size: 16px;
+}
+.mui-content .content_content {
+  margin: 0 10px;
+}
+.mui-content .content_content .cont_cent {
+  margin: 20px 0;
+  font-size: 16px;
+  color: #666;
+}
+.mui-content .content_content .cont_cent .clear {
+  font-size: 16px;
+  line-height: normal;
+}
+.mui-content .content_content .cont_cent .clear.mui-icon-trash::before {
+  margin-right: 2px;
+  font-size: 18px;
+}
+/*# sourceMappingURL=seach.css.map */

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/mui.min.css">
+	<link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/base.css">
+	<script src="js/mui.min.js"></script>
+	<script src="assets/jquery/jquery.js"></script>
+	<script src="js/iscroll.js"></script>
+	<script src="js/index.js"></script>
+    <script src="js/base.js"></script>
+</head>
+<body class="mui-ios mui-ios-9 mui-ios-9-1">
+	<!--头部快-->
+	<header class="header mui-bar mui-bar-nav">
+			<!--logo-->
+			<img src="images/logo.png" class="sl_logo" alt="">
+			<!--搜索框-->
+			<div class="search">
+				<input type="text"  class="search_input" placeholder="一年级语文语句">
+			</div>
+			<a class="mui-icon mui-icon-search" href="seach.html"></a>
+		</header>
+	<!--脚部块-->
+	<nav class="mui-bar mui-bar-tab footer">
+			<a href="index.html" class="mui-tab-item mui-active">
+				<span class="mui-icon iconfont icon-shouye"></span>
+				<span class="mui-tab-label">首页</span>
+			</a>
+			<a class="mui-tab-item" href="zixun.html">
+				<span class="mui-icon iconfont icon-zixun"></span>
+				<span class="mui-tab-label">资讯</span>
+			</a>
+			<a class="mui-tab-item" href="text.html">
+				<span class="mui-icon iconfont icon-zongheceping"></span>
+				<span class="mui-tab-label">测评</span>
+			</a>
+			<a class="mui-tab-item" href="course.html">
+				<span class="mui-icon iconfont icon-kecheng"></span>
+				<span class="mui-tab-label">课程</span>
+			</a>
+			<a class="mui-tab-item" href="personal.html">
+				<span class="mui-icon iconfont icon-gerenzhongxin"></span>
+				<span class="mui-tab-label">个人中心</span>
+			</a>
+		</nav>
+	<!--内容区-->
+	<div class="content">
+			<div class="content_center">
+				<!--轮播图-->
+				<div class="mui-slider">
+					<div class="mui-slider-group mui-slider-loop">
+						<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="images/banner04.png" /></a></div>
+						<div class="mui-slider-item"><a href="#"><img src="images/banner01.png" /></a></div>
+						<div class="mui-slider-item"><a href="#"><img src="images/banner02.png" /></a></div>
+						<div class="mui-slider-item"><a href="#"><img src="images/banner03.png" /></a></div>
+						<div class="mui-slider-item"><a href="#"><img src="images/banner04.png" /></a></div>
+						<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="images/banner01.png" /></a></div>
+					</div>
+					<div class="mui-slider-indicator">
+						<div class="mui-indicator mui-active"></div>
+						<div class="mui-indicator"></div>
+						<div class="mui-indicator"></div>
+						<div class="mui-indicator"></div>
+					</div>
+				</div>
+				<!--下半部内容区-->
+				<div class="butoom">
+					<div class="content_butoom">
+						<!--课程推荐块-->
+						<ul class="mui-table-view">
+							<li class="mui-table-view-cell mui-media">
+								<p>课程推荐</p>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="images/zuowen.png">
+									<div class="new mui-media-body">
+										<p>词语基础教学</p>
+										<p class="actor">河畔已经</p>
+										<span class="mon">￥125</span>
+										<span class="cla">一年级·语文</span>
+										<span class="mui-icon mui-icon-mic">6529</span>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="images/zuowen.png">
+									<div class="new mui-media-body">
+										<p>词语基础教学</p>
+										<p class="actor">河畔已经</p>
+										<span class="mon">￥125</span>
+										<span class="cla">一年级·语文</span>
+										<span class="mui-icon mui-icon-mic">6529</span>
+									</div>
+								</a>
+							</li>
+							<li class="more mui-table-view-cell mui-media">
+								<a class="more" href="#">查看更多</a>
+							</li>
+						</ul>
+						<!--测试推荐块-->
+						<ul class="mui-table-view">
+							<li class="mui-table-view-cell mui-media">
+								<p>测试推荐</p>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="images/zuowen.png">
+									<div class="new mui-media-body">
+										<p>SHL能力测试</p>
+										<span class="mon">￥125</span>
+										<span class="mui-icon mui-icon-mic">6529</span>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="images/zuowen.png">
+									<div class="new mui-media-body">
+										<p>SHL能力测试</p>
+										<span class="mon">￥125</span>
+										<span class="mui-icon mui-icon-mic">6529</span>
+									</div>
+								</a>
+							</li>
+							<li class="more mui-table-view-cell mui-media">
+								<a class="more" href="#">查看更多</a>
+							</li>
+						</ul>
+						<!--热门老师块-->
+						<div class="sl_top_teach">
+							<div class="teach">
+								<p>热门老师</p>
+							</div>
+						</div>
+						<ul class="sl_teacher mui-table-view">
+							<li class="sl_true_teach mui-table-view-cell mui-media">
+								<div class="sl_teacher_son">
+									<div class="sl_teacher_img">
+									</div>
+									<p>河畔一绝</p>
+									<p>语文老师</p>
+									<span>高分作文</span>
+									<span>词语分析</span>
+									<p>--12357已关注--</p>
+								</div>
+								<div class="sl_teacher_son">
+									<div class="sl_teacher_img">
+									</div>
+									<p>河畔一绝</p>
+									<p>语文老师</p>
+									<span>高分作文</span>
+									<span>词语分析</span>
+									<p>--12357已关注--</p>
+								</div>
+								<div class="sl_teacher_son">
+									<div class="sl_teacher_img">
+									</div>
+									<p>河畔一绝</p>
+									<p>语文老师</p>
+									<span>高分作文</span>
+									<span>词语分析</span>
+									<p>--12357已关注--</p>
+								</div>
+								<div class="sl_teacher_son">
+									<div class="sl_teacher_img">
+									</div>
+									<p>河畔一绝</p>
+									<p>语文老师</p>
+									<span>高分作文</span>
+									<span>词语分析</span>
+									<p>--12357已关注--</p>
+								</div>
+								<div class="sl_teacher_son">
+									<div class="sl_teacher_img">
+									</div>
+									<p>河畔一绝</p>
+									<p>语文老师</p>
+									<span>高分作文</span>
+									<span>词语分析</span>
+									<p>--12357已关注--</p>
+								</div>
+								<div class="sl_teacher_son">
+									<div class="sl_teacher_img">
+									</div>
+									<p>河畔一绝</p>
+									<p>语文老师</p>
+									<span>高分作文</span>
+									<span>词语分析</span>
+									<p>--12357已关注--</p>
+								</div>
+								<div class="sl_teacher_son">
+									<div class="sl_teacher_img">
+									</div>
+									<p>河畔一绝</p>
+									<p>语文老师</p>
+									<span>高分作文</span>
+									<span>词语分析</span>
+									<p>--12357已关注--</p>
+								</div>
+							</li>
+						</ul>
+						<!--新上好课块-->
+						<ul class="mui-table-view">
+							<li class="mui-table-view-cell mui-media">
+								<p>新上好课</p>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="images/zuowen.png">
+									<div class="new mui-media-body">
+										<p>SHL能力测试</p>
+										<span class="mon">￥125</span>
+										<span class="mui-icon mui-icon-mic">6529</span>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="images/zuowen.png">
+									<div class="new mui-media-body">
+										<p>SHL能力测试</p>
+										<span class="mon">￥125</span>
+										<span class="mui-icon mui-icon-mic">6529</span>
+									</div>
+								</a>
+							</li>
+							<li class="more mui-table-view-cell mui-media">
+								<a class="more" href="#">查看更多</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+	</div>
+</body>
+</html>

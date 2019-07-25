@@ -1,0 +1,67 @@
+/*文本框区域*/
+html {
+  background-color: #fff;
+}
+.register_user {
+  label {
+    width: 10%;
+    margin-right: 10px;
+    span {
+      font-size: 30px;
+      color: #218bca;
+    }
+  }
+  input {
+    width: 85%;
+    padding-left: 15px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 45px;
+  }
+  input:last-of-type {
+    width: 40%;
+    margin-bottom: 0;
+  }
+  .SL_yzm {
+    display: inline-block;
+    width: 40%;
+    height: 45px;
+    padding-top: 10px;
+    margin-left: 15px;
+    background: -webkit-linear-gradient(left, red, yellow, green, blue, purple, pink); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, red, yellow, green, blue, purple, pink); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, red, yellow, green, blue, purple, pink); /* Firefox 3.6 - 15 */
+    background: linear-gradient(right, red, yellow, green, blue, purple, pink);
+  }
+}
+/*文本框区域结束*/
+.register_register {
+  margin-top: 55px;
+  width: 100%;
+  img {
+    width: 100%;
+    display: block;
+  }
+}
+.bottom {
+  .register {
+    padding-top: 3px;
+  }
+}
+/*适用于超小高度(650px)屏幕*/
+@media screen and (max-height: 650px){
+  .cont {
+    margin-top: 30px;
+    .logo {
+      margin-bottom: 30px;
+      h2 {
+        font-size: 35px;
+      }
+    }
+    .register_register {
+      margin-top: 30px;
+    }
+  }
+}

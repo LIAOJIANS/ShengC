@@ -1,0 +1,59 @@
+.notice {
+  width: 100%;
+  height: 50px;
+  background-color: #218bca;
+  position: relative;
+}
+.notice .return {
+  position: absolute;
+  left: 5px;
+  top: 0;
+  font-size: 30px;
+  margin-top: 0;
+  padding: 15px 5px 10px 0;
+  color: #fff;
+}
+.notice .notice_name {
+  width: 100%;
+  font-size: 24px;
+  color: #fff;
+  padding-top: 13px;
+  text-align: center;
+}
+.notice_content ul li {
+  background-color: #fff;
+  padding: 10px 5px;
+  margin-top: 10px;
+}
+.notice_content ul li .not h3 {
+  font-size: 14px;
+  color: black;
+}
+.notice_content ul li .not .not_content {
+  font-size: 12px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.notice_content ul li .not .not_content span:nth-of-type(1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.notice_content ul li .not .not_content .jiantou {
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.notice_content ul li .not .not_footer {
+  display: flex;
+  justify-content: space-between;
+}
+.notice_content ul li .not .not_footer .time {
+  color: #333;
+  font-size: 12px;
+}
+.notice_content ul li .not .not_footer .sl_hez {
+  font-size: 12px;
+  color: #666;
+}
+/*# sourceMappingURL=notice.css.map */

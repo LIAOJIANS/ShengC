@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/mui.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/personal.css">
+    <script src="js/mui.min.js"></script>
+    <script src="assets/zepto/zepto.min.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/personal.js"></script>
+</head>
+<body>
+<!--内容区-->
+<div class="mui-content">
+    <!--头-->
+    <div class="content_top">
+       <form id="form1" enctype="multipart/form-data">
+           <input type="file" id="btnShoosePic" name="image" onchange="sc(this);" style="position:absolute;top:-10000px" />
+           <label class="dbtn2 upFileTop choosePic" for="btnShoosePic">
+           </label>
+       </form>
+        <a href="#" class="setup">
+            <span class="mui-icon mui-icon-more"></span>
+        </a>
+   </div>
+    <!--中间-->
+    <div class="content_centen">
+        <div class="tiaozhuan">
+            <a href="login.html" class="personal_login">登录</a>
+            <a href="register.html" class="personal_register">注册</a>
+        </div>
+        <ul class="content_centen_center clearfix">
+            <li>
+                <a href="#" class="qiandao">
+                    <p class="mui-icon iconfont icon-ziyuan"></p>
+                    <p>签到</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="shouchang collection">
+                    <p class="mui-icon iconfont icon-shoucang"></p>
+                    <p>收藏</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="dingdan">
+                    <p class="mui-icon iconfont icon-dingdan"></p>
+                    <p>订单</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--脚部分-->
+    <div class="content_footer">
+        <ul class="content_footer_f">
+            <li><a href="#" class="sign_in"><span class="mui-icon iconfont icon-zongheceping"></span>测评<span class="mui-badge mui-badge-danger">45</span></a></li>
+            <li><a href="#"><span class="mui-icon iconfont icon-shipin"></span>视频<span class="mui-badge mui-badge-danger">45</span></a></li>
+            <li><a href="#"><span class="mui-icon iconfont icon-shijuan"></span>试卷<span class="mui-badge mui-badge-danger">45</span></a></li>
+            <li><a href="#" class="notice"><span class="mui-icon iconfont icon-tongzhi"></span>通知<span class="mui-badge mui-badge-danger">45</span></a></li>
+            <li><a href="#"><span class="mui-icon iconfont icon-tubiaolunkuo-"></span>钱包<span class="mui-badge mui-badge-danger">45</span></a></li>
+            <li><a href="#" class="shezhi"><span class="mui-icon iconfont icon-shezhi"></span>设置<span class="mui-badge mui-badge-danger">45</span></a></li>
+        </ul>
+    </div>
+</div>
+<!--脚部分-->
+<nav class="mui-bar mui-bar-tab footer">
+    <a href="index.html" class="mui-tab-item">
+        <span class="mui-icon iconfont icon-shouye"></span>
+        <span class="mui-tab-label">首页</span>
+    </a>
+    <a class="mui-tab-item" href="zixun.html">
+        <span class="mui-icon iconfont icon-zixun"></span>
+        <span class="mui-tab-label">咨询</span>
+    </a>
+    <a class="mui-tab-item" href="text.html">
+        <span class="mui-icon iconfont icon-zongheceping"></span>
+        <span class="mui-tab-label">测评</span>
+    </a>
+    <a class="mui-tab-item" href="course.html">
+        <span class="mui-icon iconfont icon-kecheng"></span>
+        <span class="mui-tab-label">课程</span>
+    </a>
+    <a class="mui-tab-item mui-active" href="personal.html">
+        <span class="mui-icon iconfont icon-gerenzhongxin"></span>
+        <span class="mui-tab-label">个人中心</span>
+    </a>
+</nav>
+</body>
+</html>

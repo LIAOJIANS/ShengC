@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/mui.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/seach_retuest.css">
+    <script src="js/mui.min.js"></script>
+    <script src="assets/zepto/zepto.min.js"></script>
+    <script src="assets/template/template-native.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/seach_retuest.js"></script>
+</head>
+<body>
+<div class="content_top">
+    <span class="return iconfont icon-jiantou"></span>
+    <p class="content_top_name">搜索结果</p>
+</div>
+<div class="mui-content">
+    <div id="item1" class="mui-control-content mui-active mui-scroll-wrapper SL_item1">
+        <ul class="mui-table-view mui-scroll mui-table-view" id="seach_R">
+
+        </ul>
+    </div>
+</div>
+<script id="historyR" type="text/template">
+    <%for(var i = 0; i < data.length;i++){%>
+        <li class="mui-table-view-cell mui-table-view-cell mui-media">
+            <a href="javascript:;">
+                <img class="mui-media-object mui-pull-left" src="images/tz.png">
+                <div class="mui-media-body">
+                    <span><%=data[i].goodsname%></span>
+                    <p class='mui-ellipsis'>￥<%=data[i].price%></p>
+                    <div class="buttom clearfix">
+                        <span class="mui-media-body_cent_shu"><i class="mui-icon iconfont icon-eye"></i><%=data[i].num%></span>
+                        <span class="look">[查看详情]</span>
+                    </div>
+                </div>
+            </a>
+        </li>
+    <%}%>
+</script>
+</body>
+</html>

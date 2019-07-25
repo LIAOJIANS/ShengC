@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/mui.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/seach.css">
+    <title>Document</title>
+    <script src="js/mui.min.js"></script>
+    <script src="assets/zepto/zepto.min.js"></script>
+    <script src="assets/template/template-native.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/seach.js"></script>
+</head>
+<body>
+    <div class="mui-content">
+        <div class="cont_top">
+            <span class="return iconfont icon-jiantou"></span>
+            <div class="form">
+                <input type="text"  class="seach_input" placeholder="一年级语文语句">
+            </div>
+            <a class="mui-icon mui-icon-search search_button" href="#"></a>
+            <span class="seach">搜索</span>
+        </div>
+        <div class="content_content">
+            <div class="cont_cent mui-clearfix">
+                <span class="title mui-pull-left">搜索历史</span>
+                <span class="clear mui-pull-right mui-icon mui-icon-trash">清空历史</span>
+            </div>
+            <ul class="mui-table-view" id="history">
+
+            </ul>
+        </div>
+    </div>
+    <script id="historyTpl" type="text/template">
+        <%for(var i = 0; i < result.length;i++){%>
+            <li class="mui-table-view-cell"><%=result[i]%></li>
+        <%}%>
+    </script>
+</body>
+</html>

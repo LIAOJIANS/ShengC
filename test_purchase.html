@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/mui.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/test_purchase.css">
+    <script src="js/mui.min.js"></script>
+    <script src="assets/zepto/zepto.min.js"></script>
+    <script src="js/test_purchase.js"></script>
+    <script src="assets/template/template-native.js"></script>
+</head>
+<body>
+    <div class="mui-content" id="rongqi">
+        <div class="test_purchase_top">
+            <span class="return iconfont icon-jiantou"></span>
+            <p class="content_top_name">SHL胜任力测试</p>
+        </div>
+    </div>
+    <script id="historyR" type="text/template">
+        <div class="test_purchase_banner">
+            <img src="<%= data.imgsrc%>" alt="">
+            <div class="test_purchase_banner_title">
+                <span class="shl_title"><span class="shl_lab">名称：</span><%= data.goodsname%></span><br>
+                <span class="shl_price"><span class="shl_lab">价格：</span>￥<%= data.price %></span><br>
+                <span class="shl_click"><span class="iconfont icon-eye"></span><%= data.goods_look%></span>
+            </div>
+        </div>
+        <div class="test_purchase_content">
+            <h1>介绍：</h1>
+            <p class="shk_content">
+                <%= data.goods_info%>
+            </p>
+            <p class="shl_result">分值分布：每题5分，共100分</p>
+            <p class="shl_time">时长：60分钟</p>
+            <input id="btn" type="submit" value="立即测试" />
+        </div>
+    </script>
+</body>
+</html>

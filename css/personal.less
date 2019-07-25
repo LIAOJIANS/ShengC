@@ -1,0 +1,128 @@
+/*less定义变量*/
+@baseColor: #218bca;
+/*内容区*/
+/*头部区*/
+.content_top {
+  width: 100%;
+  height: 70px;
+  background-color: @baseColor;
+  position: relative;
+  z-index: 99999;
+  form{
+      width: 75px;
+      height: 75px;
+      background-color: #fff;
+      position: absolute;
+      left: 50%;
+      top: 35px;
+      margin-left: -35px;
+      overflow: hidden;
+      border: 1px solid @baseColor;
+      border-radius: 38px;
+      z-index: 99999999999999999999999;
+      label {
+        display: block;
+        width: 75px;
+        height: 75px;
+        border-radius: 38px;
+      }
+    }
+  .ueser_tx {
+    max-width: 75px;
+    max-height: 75px;
+    min-width: 75px;
+    min-height: 75px;
+  }
+  .setup {
+    position: absolute;
+    top: 0;
+    right: 0;
+    .mui-icon {
+      color: #fff;
+      font-size: 60px;
+    }
+  }
+}
+/*头部区结束*/
+/*中心区*/
+.content_centen {
+  padding-top: 60px;
+  background-color: #fff;
+  position: relative;
+  .tiaozhuan {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    margin-top: -15px;
+    //margin-left: -40px;
+    text-align: center;
+    a {
+      display: inline-block;
+      font-size: 16px;
+    }
+    .personal_login {
+      margin-left: 5px;
+    }
+    .p_username {
+      margin-left: 5px;
+      width: 100%;
+      color: @baseColor;
+      text-align: center;
+    }
+  }
+  .content_centen_center {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    li {
+      float: left;
+      width: 33.3%;
+      text-align: center;
+      border-right: 1px solid #ccc;
+      a{
+        p {
+          font-size: 12px;
+        }
+        .iconfont {
+          font-size: 30px;
+          color: @baseColor;
+        }
+      }
+    }
+    li:last-of-type {
+      border: none;
+    }
+  }
+}
+/*中心区结束*/
+/*脚区域*/
+.content_footer {
+  ul {
+    margin-top: 10px;
+    li {
+      width: 100%;
+      background-color: #fff;
+      margin-top: 5px;
+      padding: 5px 15px;
+      a {
+        font-size: 14px;
+        width: 100%;
+        color: #0f0f0f;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        .iconfont {
+          font-size: 22px;
+          margin-right: 5px;
+          color: @baseColor;
+        }
+        .mui-badge {
+          margin-left: 5px;
+          padding: 2px 4px;
+        }
+      }
+    }
+  }
+}
+/*脚区域结束*/
